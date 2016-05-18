@@ -8,4 +8,4 @@ Download the source code from github and cd to the root the project.
 Execute rails s or rails server to start the application.
 Navigate to localhost:3000/welcome/index to view to page.
 
-#Added travis.yml and database.yml to test the app with different DB
+Added travis.yml and database.yml to test the app with different DB
