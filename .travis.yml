@@ -8,7 +8,6 @@ env:
 script:
   - RAILS_ENV=test bundle exec rake db:migrate --trace
   - bundle exec rake db:test:load
-  - bundle exec rspec spec/
 before_script:
   - cp config/database.travis.yml config/database.yml
   - mysql -e 'create database blog_test'
